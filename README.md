@@ -4,7 +4,7 @@ A comprehensive Python-based system that automates job application preparation u
 
 ## 📸 Dashboard Preview
 
-![AI Job Application Automation Dashboard](assets/dashboard-screenshot.png)
+![AI Job Application Automation Dashboard](assets/screenshot.png)
 
 *The Streamlit dashboard provides a comprehensive overview of your job application pipeline with system health monitoring, key metrics, activity charts, job management, and quick actions - all in a professional dark theme interface.*
 
