@@ -3,9 +3,9 @@
 # AI Job Application Automation - Streamlit UI Launcher
 # Usage: ./start or just 'start' (if in PATH)
 
-# Change to the ai-job-automation directory
-cd "$(dirname "$0")/ai-job-automation" || {
-    echo "Error: Could not find ai-job-automation directory"
+# Change to the project directory (where this script is located)
+cd "$(dirname "$0")" || {
+    echo "Error: Could not change to project directory"
     exit 1
 }
 
