@@ -1,0 +1,25 @@
+[project]
+name = "ai-job-automation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "beautifulsoup4>=4.13.5",
+    "feedparser>=6.0.11",
+    "markdown>=3.9",
+    "ollama>=0.5.3",
+    "openai>=1.106.1",
+    "pandas>=2.3.2",
+    "pdfkit>=1.0.0",
+    "plotly>=6.3.0",
+    "psutil>=6.1.0",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "selenium>=4.35.0",
+    "streamlit>=1.49.1",
+    "streamlit-aggrid>=1.1.8.post1",
+    "streamlit-authenticator>=0.4.2",
+    "watchdog>=6.0.0",
+]

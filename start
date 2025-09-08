@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# AI Job Application Automation - Streamlit UI Launcher
+# Usage: ./start or just 'start' (if in PATH)
+
+# Change to the ai-job-automation directory
+cd "$(dirname "$0")/ai-job-automation" || {
+    echo "Error: Could not find ai-job-automation directory"
+    exit 1
+}
+
+# Check if uv is available
+if ! command -v uv &> /dev/null; then
+    echo "Error: uv is not installed or not in PATH"
+    echo "Please install uv: curl -LsSf https://astral.sh/uv/install.sh | sh"
+    exit 1
+fi
+
+# Launch the Streamlit app using uv
+echo "🚀 Starting AI Job Application Automation UI..."
+echo "📍 Running from: $(pwd)"
+echo "🌐 The app will open in your default browser"
+echo ""
+
+uv run streamlit run src/ui/app.py
